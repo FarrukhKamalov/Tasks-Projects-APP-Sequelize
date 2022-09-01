@@ -1,0 +1,26 @@
+{
+  "name": "sequelizeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "sequelize",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL"
+  ],
+  "author": "Kamalov Farrukh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemodule": "^0.3.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
+  }
+}
